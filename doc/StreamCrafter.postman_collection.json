@@ -1,0 +1,45 @@
+{
+	"info": {
+		"_postman_id": "35c74357-d929-4892-b688-54e78f633227",
+		"name": "StreamCrafter",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "4955836"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/api/calculate",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "default"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"operation\": \"add\",\r\n    \"number1\": 10,\r\n    \"number2\": 5\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/calculate",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"calculate"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
