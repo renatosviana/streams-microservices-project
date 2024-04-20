@@ -2,7 +2,9 @@ plugins {
     id 'java'
     id 'org.springframework.boot' version '2.7.1'
     id 'io.spring.dependency-management' version '1.0.11.RELEASE'
+    id 'com.commercehub.gradle.plugin.avro' version '0.21.0'
 }
+
 
 group = 'org.example'
 version = '1.0-SNAPSHOT'
@@ -10,6 +12,8 @@ version = '1.0-SNAPSHOT'
 repositories {
     mavenCentral()
 }
+
+
 
 dependencies {
     testImplementation platform('org.junit:junit-bom:5.9.1')
@@ -23,13 +27,24 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
 
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation 'org.springframework.kafka:spring-kafka'
+    implementation 'org.springframework.kafka:spring-kafka'
+    implementation 'org.apache.avro:avro'
+    implementation 'io.confluent:kafka-avro-serializer'
+    implementation 'io.confluent:kafka-schema-registry-client'
+
+}
+
+// Configure the Avro plugin
+avro {
+    createSetters = false
+    fieldVisibility = "PRIVATE"
 }
 
 apply plugin: 'java'
 sourceCompatibility = '11'
 targetCompatibility = '11'
-
-
 
 
 test {
