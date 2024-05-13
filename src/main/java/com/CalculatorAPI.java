@@ -1,4 +1,4 @@
-package api;
+package com;
 public interface CalculatorAPI {
     double add(double a, double b);
     double subtract(double a, double b);

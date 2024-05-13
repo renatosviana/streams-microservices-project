@@ -1,8 +1,8 @@
-package api.controller;
+package com.controller;
 
-import api.CalculationRequest;
-import api.CalculationResponse;
-import api.service.CalculatorService;
+import com.CalculationRequest;
+import com.CalculationResponse;
+import com.service.CalculatorService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/api")
+@RequestMapping("/com")
 public class CalculatorController {
 
     private final CalculatorService calculatorService;
@@ -31,6 +31,8 @@ public class CalculatorController {
         // Return the ResponseEntity with the wrapped result
         return new ResponseEntity<>(response, HttpStatus.OK);
     }
+
+
 
 }
 

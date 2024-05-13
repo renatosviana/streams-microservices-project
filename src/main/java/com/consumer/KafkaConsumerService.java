@@ -1,4 +1,4 @@
-package api.consumer;
+package com.consumer;
 
 import com.viana.avro.User;
 import org.springframework.kafka.annotation.KafkaListener;

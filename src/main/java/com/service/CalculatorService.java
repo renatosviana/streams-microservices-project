@@ -1,8 +1,8 @@
-package api.service;
+package com.service;
 
-import api.CalculationRequest;
-import api.CalculatorAPI;
-import api.SimpleCalculator;
+import com.CalculationRequest;
+import com.CalculatorAPI;
+import com.SimpleCalculator;
 import org.springframework.stereotype.Service;
 
 @Service

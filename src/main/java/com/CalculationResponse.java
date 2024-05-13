@@ -1,4 +1,4 @@
-package api;
+package com;
 
 import lombok.Data;
 
