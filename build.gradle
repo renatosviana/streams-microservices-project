@@ -33,7 +33,7 @@ dependencies {
     implementation 'org.springframework.kafka:spring-kafka'
     implementation 'org.springframework.kafka:spring-kafka'
     implementation 'org.apache.avro:avro'
-    implementation 'io.confluent:kafka-avro-serializer'
+//    implementation 'io.confluent:kafka-avro-serializer'
     implementation 'io.confluent:kafka-schema-registry-client'
 
     implementation "io.confluent:kafka-avro-serializer:${confluentVersion}"
@@ -51,8 +51,8 @@ dependencies {
 
 apply plugin: 'java'
 //apply plugin: 'com.commercehub.gradle.plugin.avro'
-sourceCompatibility = '11'
-targetCompatibility = '11'
+sourceCompatibility = '17'
+targetCompatibility = '17'
 
 
 bootRun {
