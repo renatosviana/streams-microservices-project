@@ -75,3 +75,8 @@ test {
 
 
 sourceSets.main.java.srcDirs += ["${buildDir}/generated-main-avro-java"]
+
+//avro {
+//    sourceDirectories.setFrom(files("src/main/resources/avro"))
+//    outputDirectory.set(file("src/main/java"))
+//}
