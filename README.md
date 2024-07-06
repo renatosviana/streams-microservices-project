@@ -36,10 +36,10 @@ Steps
 git clone https://github.com/renatosviana/streams-microservices-project.git
 cd streams-microservices-project
 
-2. Build the services:
+3. Build the services:
 ./gradlew build
 
-3. Start the services using Docker Compose:
+4. Start the services using Docker Compose:
 docker-compose up -d
 
 Accessing Services
