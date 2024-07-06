@@ -1,7 +1,7 @@
-Streams Microservices Project
+## Streams Microservices Project
 This repository contains a microservices-based project implemented in Java using Spring Boot. The project demonstrates a basic microservice architecture with three services: Order Service, Inventory Service, and Calculator Service. Each service is designed to handle specific business logic and communicate with each other via Apache Kafka.
 
-Services
+## Services
 1. Order Service
 The Order Service is responsible for handling order-related operations. It listens to order events and processes them accordingly.
 
@@ -11,7 +11,7 @@ The Inventory Service manages inventory levels. It listens to order events and u
 3. Calculator Service
 The Calculator Service performs basic arithmetic operations. It acts independently of the Order and Inventory services.
 
-Technologies Used
+## Technologies Used
 Java 17
 Spring Boot
 Spring Data JPA
@@ -26,34 +26,41 @@ Docker Compose
 Steps
 Clone the repository:
 
-Running the Project
-Prerequisites
-Docker
-Docker Compose
+## Running the Project
+### Prerequisites
+- Docker
+- Docker Compose
 
-Steps
+### Steps
+
 1. Clone the repository:
-git clone https://github.com/renatosviana/streams-microservices-project.git
-cd streams-microservices-project
+    ```sh
+    git clone https://github.com/renatosviana/streams-microservices-project.git
+    cd streams-microservices-project
+    ```
 
-3. Build the services:
-./gradlew build
+2. Build the services:
+    ```sh
+    ./gradlew build
+    ```
 
-4. Start the services using Docker Compose:
-docker-compose up -d
+3. Start the services using Docker Compose:
+    ```sh
+    docker-compose up -d
+    ```
 
-Accessing Services
+## Accessing Services
 Order Service: http://localhost:8081
 Inventory Service: http://localhost:8082
 Calculator Service: http://localhost:8083
 
-API Documentation
+## API Documentation
 API documentation for each service can be found in the doc directory of the respective service. Additionally, a Postman collection is provided for testing the APIs.
 
-Postman Collection
-The Postman collection StreamCrafter.postman_collection.json is located in the doc directory. Import this collection into Postman to test the various API endpoints.
+### Postman Collection
+To test the microservices, you can use the provided Postman collection. Import the `StreamCrafter.postman_collection.json` file from the `doc` directory into Postman.
 
-Project Structure
+## Project Structure
 streams-microservices-project
 │
 ├── calculator-service
