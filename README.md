@@ -44,12 +44,12 @@ streams-microservices-project
    ```bash
    docker-compose up -d
 
-##Postman Collection
+## Postman Collection
 A Postman collection for testing the microservices is included in the project:
 - File: StreamCrafter.postman_collection.json
 
 
-##Features
+## Features
 - **Spring Boot:** Framework for building Java applications.
 - **Microservices:** Modular and independently deployable services.
 - **Kafka Streaming:** For real-time data streaming and processing.
