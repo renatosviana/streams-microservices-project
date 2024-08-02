@@ -35,3 +35,13 @@ streams-microservices-project
    ```bash
    git clone https://github.com/renatosviana/streams-microservices-project.git
    cd streams-microservices-project
+
+2. **Build the services:**
+   ./gradlew build
+
+3. **Start the services using Docker Compose:**
+   docker-compose up -d
+
+##Postman Collection
+A Postman collection for testing the microservices is included in the project:
+
