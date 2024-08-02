@@ -4,19 +4,18 @@ A **Java-based project** demonstrating microservices architecture with Spring Bo
 
 ## Project Structure
 
-streams-microservices-project
 ├── calculator-service
-│   ├── src/main/java/com/calculator
-│   ├── build.gradle
-│   ├── Dockerfile
+│ ├── src/main/java/com/calculator
+│ ├── build.gradle
+│ ├── Dockerfile
 ├── order-service
-│   ├── src/main/java/com/order
-│   ├── build.gradle
-│   ├── Dockerfile
+│ ├── src/main/java/com/order
+│ ├── build.gradle
+│ ├── Dockerfile
 ├── inventory-service
-│   ├── src/main/java/com/inventory
-│   ├── build.gradle
-│   ├── Dockerfile
+│ ├── src/main/java/com/inventory
+│ ├── build.gradle
+│ ├── Dockerfile
 ├── docker-compose.yml
 └── README.md
 
