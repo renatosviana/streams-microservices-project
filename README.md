@@ -37,9 +37,11 @@ streams-microservices-project
    cd streams-microservices-project
 
 2. **Build the services:**
+   ```bash
    ./gradlew build
 
-3. **Start the services using Docker Compose:**
+4. **Start the services using Docker Compose:**
+   ```bash
    docker-compose up -d
 
 ##Postman Collection
