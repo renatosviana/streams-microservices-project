@@ -56,5 +56,8 @@ A Postman collection for testing the microservices is included in the project:
 - **Docker:** Containerization of services for easy deployment.
 - **Avro Serialization:** Efficient data serialization format.
 - **Gradle:** Build automation tool.
-- **Jenkins CI/CD:** Continuous Integration and Continuous Deployment pipeline.
+- **Jenkins CI/CD:** Continuous Integration and Continuous Deployment pipeline. (TBD)
+
+## Contribution
+Feel free to contribute by submitting pull requests or opening issues for any improvements.
 
