@@ -46,4 +46,15 @@ streams-microservices-project
 
 ##Postman Collection
 A Postman collection for testing the microservices is included in the project:
+- File: StreamCrafter.postman_collection.json
+
+
+##Features
+- **Spring Boot:** Framework for building Java applications.
+- **Microservices:** Modular and independently deployable services.
+- **Kafka Streaming:** For real-time data streaming and processing.
+- **Docker:** Containerization of services for easy deployment.
+- **Avro Serialization:** Efficient data serialization format.
+- **Gradle:** Build automation tool.
+- **Jenkins CI/CD:** Continuous Integration and Continuous Deployment pipeline.
 
