@@ -54,7 +54,7 @@ The Streams Microservices Project is designed to handle real-time data processin
 
 ## Postman Collection
 
-A Postman collection is provided to facilitate API testing. The collection is located in the `doc` folder:
+A Postman collection is provided to facilitate API testing. The collection is located in the `doc` folder (https://github.com/renatosviana/streams-microservices-project/tree/master/calculator-service/doc):
 - **StreamCrafter.postman_collection.json**: Includes pre-configured API requests for testing the microservices.
 
 ## Technologies Used
