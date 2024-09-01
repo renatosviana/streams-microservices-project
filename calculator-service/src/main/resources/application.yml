@@ -25,3 +25,12 @@ spring:
       schema.registry.url: http://172.19.113.43:8081
       #schema.registry.url: http://localhost:8081
 
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+  endpoint:
+    health:
+      show-details: always
+
